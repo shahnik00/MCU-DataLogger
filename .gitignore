@@ -1,0 +1,16 @@
+# KiCad temporary files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*.lock
+
+# Gerber and manufacturing files (usually you only want source files in Git)
+*.gbr
+*.drl
+*.pos
+*.zip
