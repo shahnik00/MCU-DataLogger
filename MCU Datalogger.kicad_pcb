@@ -575,7 +575,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at -2.6 0 0)
+			(at -2.55 0 0)
 			(layer "F.SilkS")
 			(uuid "8aa80c4b-d0a6-4ab4-aa02-7972ccf919a3")
 			(effects
@@ -775,7 +775,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -0.0625 1.45 0)
+			(at -0.0125 1.4 0)
 			(layer "F.SilkS")
 			(uuid "895de014-c6ed-40cd-9dbf-201f76c52009")
 			(effects
@@ -1727,7 +1727,7 @@
 			)
 		)
 		(property "Value" "LED2"
-			(at -2.7875 -0.95 180)
+			(at 2.3125 -0.1 270)
 			(layer "F.SilkS")
 			(uuid "59f0b3fc-9061-4d1f-8888-a9af12acd9df")
 			(effects
@@ -2467,7 +2467,8 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.075)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -3092,13 +3093,14 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at -0.025 -3.255 90)
+			(at -4.675 -0.005 180)
 			(layer "F.SilkS")
 			(uuid "4efb20c1-ca0c-45f5-bc11-b9b17545b4bc")
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.075)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -3641,14 +3643,15 @@
 		(at 43.05 63.85)
 		(descr "TQFP, 32 Pin (JEDEC MS-026 variation ABA, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=656), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TQFP QFP")
-		(property "Reference" "U3"
-			(at 0 -5.85 0)
+		(property "Reference" "ATmega328P-A"
+			(at 0.15 5.9 0)
 			(layer "F.SilkS")
 			(uuid "3e5ddfa2-d7de-428a-97e7-79e534a06667")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -4391,7 +4394,8 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.075)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -5288,13 +5292,14 @@
 			)
 		)
 		(property "Value" "ICSP"
-			(at -1.85 1.98 90)
+			(at -0.15 7.28 180)
 			(layer "F.SilkS")
 			(uuid "d741e03c-4f4b-4994-8ff5-e0e3ae259b92")
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.075)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -6012,7 +6017,8 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.075)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -6390,14 +6396,15 @@
 		(at 22.5 72.17 180)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
-		(property "Reference" "J1"
-			(at -2.5 -2.38 0)
+		(property "Reference" "I2C"
+			(at 0 -2.28 0)
 			(layer "F.SilkS")
 			(uuid "8ee4b8ea-cf5e-4a77-b32c-3bb15dbdd8a2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -6784,7 +6791,8 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.075)
+					(thickness 0.12)
+					(bold yes)
 				)
 			)
 		)
@@ -7445,6 +7453,80 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "51423128-b984-4e23-9b9a-bdf683427f71")
+	)
+	(gr_text "GND"
+		(at 24.4 73.25 0)
+		(layer "F.SilkS")
+		(uuid "074bee1a-646a-4937-b518-6f7305a9683b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 55.85 75.35 0)
+		(layer "F.SilkS")
+		(uuid "4baff9c2-4888-41d8-9613-25cd155f0021")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 21.75 62.75 0)
+		(layer "F.SilkS")
+		(uuid "cc8df046-17c3-4c9c-bc45-3d0cea1955d8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 54.7 66 0)
+		(layer "F.SilkS")
+		(uuid "fb84d580-0a56-4a34-bd07-da8a179117ee")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Version 1: 2-Layer PCB"
+		(at 47 75.6 0)
+		(layer "B.SilkS")
+		(uuid "5764c986-7c6f-47a3-81ea-f47c028fb509")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MCU DataLogger with EEPROM.\nBy: Nikunj Shah :>"
+		(at 50.95 54 0)
+		(layer "B.SilkS")
+		(uuid "5c407491-636a-4ed1-9daa-d26af7f9aaa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 47.2125 63.45)
