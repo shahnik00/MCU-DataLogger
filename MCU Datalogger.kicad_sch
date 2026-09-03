@@ -3783,7 +3783,7 @@
 		)
 		(uuid "6b6f159d-35ec-44ed-b3a7-dcce0e7a9fe8")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 246.38 72.39 0)
 		(effects
 			(font
@@ -4032,6 +4032,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4d1bbf5-a1f7-4f31-8121-75b6de4d0439")
+	)
+	(label "SCK"
+		(at 205.74 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e56a4b8a-c154-4ee6-9fe0-38ba21991a88")
 	)
 	(label "MOSI"
 		(at 243.84 44.45 0)
@@ -6945,6 +6955,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SCK" passive
+			(at 205.74 134.62 180)
+			(uuid "5975690b-753d-4cd3-bc32-5f504d19614e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
